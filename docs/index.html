@@ -1,342 +1,274 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+
+<head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta
-      name="description"
-      content="I help convert a vision and an idea into meaningful and useful products."
-    />
-    <meta
-      property="og:description"
-      content="I help convert a vision and an idea into meaningful and useful products."
-    />
+    <meta name="description" content="I help convert a vision and an idea into meaningful and useful products." />
+    <meta property="og:description" content="I help convert a vision and an idea into meaningful and useful products." />
     <meta property="og:title" content="Dario Enzo Javier Ocedo | Analista de Sistemas" />
     <meta property="og:type" content="website" />
-    <meta
-      property="og:image:secure_url"
-      itemprop="image"
-      content="https://darioocedo.com/assets/thumbnail.png"
-    />
-    <meta property="og:url" content="https://darioocedo.com/" />
-    <meta
-      property="og:site_name"
-      content="Dario Enzo Javier Ocedo | Analista de Sistemas"
-    />
+    <meta property="og:image:secure_url" itemprop="image" content="https://javierenzo.github.io/darioocedo.github.io/assets/thumbnail.png" />
+    <meta property="og:url" content="https://javierenzo.github.io/darioocedo.github.io/" />
+    <meta property="og:site_name" content="Dario Enzo Javier Ocedo | Analista de Sistemas" />
     <meta name="twitter:card" content="summary_large_image" />
     <link rel="apple-touch-icon" href="./assets/logo.png" />
-    <link
-      rel="apple-touch-icon"
-      sizes="120x120"
-      href="./assets/logo-120x120.png"
-    />
-    <link
-      rel="icon"
-      type="image/png"
-      sizes="32x32"
-      href="./assets/logo-32x32.png"
-    />
-    <link
-      rel="icon"
-      type="image/png"
-      sizes="16x16"
-      href="./assets/logo-16x16.png"
-    />
+    <link rel="apple-touch-icon" sizes="120x120" href="./assets/logo-120x120.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="./assets/logo-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="./assets/logo-16x16.png" />
     <link rel="shortcut icon" type="image/x-icon" href="./assets/favicon.ico" />
     <link rel="stylesheet" href="styles.css" />
     <link rel="stylesheet" href="media.css" media="(max-width: 991px)" />
-    <script
-      src="https://kit.fontawesome.com/7b5fb2de65.js"
-      crossorigin="anonymous"
-      async
-    ></script>
+    <script src="https://kit.fontawesome.com/7b5fb2de65.js" crossorigin="anonymous" async></script>
     <script src="https://unpkg.com/scrollreveal"></script>
     <title>Dario Enzo Javier Ocedo | Analista de Sistemas</title>
-  </head>
-  <body>
+</head>
+
+<body>
     <nav class="navbar">
-      <div class="container">
-        <div class="navbar__logo">
-          <p class="navbar__title">
-            <a href="#">DarioOcedo</a>
-          </p>
+        <div class="container">
+            <div class="navbar__logo">
+                <p class="navbar__title">
+                    <a href="#">DarioOcedo</a>
+                </p>
+            </div>
+            <div class="navbar__menu">
+                <i class="fas fa-bars"></i>
+            </div>
+            <ul class="navbar__links">
+                <li class="navbar__link active" data-ref="home">
+                    <a href="#home">Home</a>
+                </li>
+                <li class="navbar__link" data-ref="about">
+                    <a href="#about">Acerca</a>
+                </li>
+                <li class="navbar__link" data-ref="services">
+                    <a href="#services">Servicios</a>
+                </li>
+                <li class="navbar__link" data-ref="portfolio">
+                    <a href="#portfolio">Portafolio</a>
+                </li>
+                <li class="navbar__link" data-ref="contact">
+                    <a href="#contact">Contacto</a> &nbsp
+                </li>
+                <li class="filter-flags" data-ref="idiomas">
+                    <a href="home.html">
+                        <img class="img-fluid" src="assets/eu.png" alt="Bandera de estados unidos">
+                    </a>
+                    <a href="index.html">
+                        <img class="img-fluid" src="assets/arg.png" alt="bandera de Argentina">
+                    </a>
+                </li>
+            </ul>
         </div>
-        <div class="navbar__menu">
-          <i class="fas fa-bars"></i>
-        </div>
-        <ul class="navbar__links">
-          <li class="navbar__link active" data-ref="home">
-            <a href="#home">Home</a>
-          </li>
-          <li class="navbar__link" data-ref="about">
-            <a href="#about">Acerca</a>
-          </li>
-          <li class="navbar__link" data-ref="services">
-            <a href="#services">Servicios</a>
-          </li>
-          <li class="navbar__link" data-ref="portfolio">
-            <a href="#portfolio">Portafolio</a>
-          </li>
-          <li class="navbar__link" data-ref="contact">
-            <a href="#contact">Contacto</a> &nbsp
-          </li>
-          <li class="filter-flags" data-ref="idiomas">
-            <a href="home.html">
-              <img class="img-fluid" src="assets/eu.png" alt="Bandera de estados unidos">
-            </a>
-            <a href="index.html">
-              <img class="img-fluid" src="assets/arg.png" alt="bandera de Argentina">
-            </a>
-          </li>
-        </ul>
-      </div>
     </nav>
     <section id="home" class="home">
-      <div class="home__background"></div>
-      <picture>
-        <source type="image/webp" srcset="./assets/profile.webp" />
-        <source type="image/jpeg" srcset="./assets/profile.jpg" />
-        <img class="home__profile" alt="picture profile" />
-      </picture>
-      <div class="home__description">
-        <span class="home__title--primary">Hola!</span>
-        <h1 class="home__title">Yo me llamo Dario Enzo Javier Ocedo.</h1>
-        <span class="home__title--secondary">- Analista de Sistemas-</span>
-      </div>
+        <div class="home__background"></div>
+        <picture>
+            <source type="image/webp" srcset="./assets/profile.webp" />
+            <source type="image/jpeg" srcset="./assets/profile.jpg" />
+            <img class="home__profile" alt="picture profile" />
+        </picture>
+        <div class="home__description">
+            <span class="home__title--primary">Hola!</span>
+            <h1 class="home__title">Yo me llamo Dario Enzo Javier Ocedo.</h1>
+            <span class="home__title--secondary">- Analista de Sistemas-</span>
+        </div>
     </section>
     <section id="about">
-      <div class="container">
-        <h2 class="section__title">Acerca</h2>
-        <div class="about__grid">
-          <div class="about__description">
-            <h3>Quien soy yo?</h3>
-            <h2>Yo me llamo Dario Ocedo <br>
-              Búsqueda laboral activa / Profesor de Tecnologías de la Información / Analista de Sistemas <br> 
-              </h2>
-            <p>
-              Yo soy un Programador freelancer en CABA - Argentina
-            </p>
-            <a
-              class="button--cta"
-              href="./assets/cv_darioocedo.pdf"
-              download="Dario Enzo Javier Ocedo CV"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <i class="fas fa-file-download"></i>Descarga CV
-            </a>
-          </div>
-          <div class="about__skills">
-            <div class="skill__title">
-              <h3>Mi skills:</h3>
+        <div class="container">
+            <h2 class="section__title">Acerca</h2>
+            <div class="about__grid">
+                <div class="about__description">
+                    <h3>Quien soy yo?</h3>
+                    <h2>Yo me llamo Dario Ocedo <br> Búsqueda laboral activa / Profesor de Tecnologías de la Información / Analista de Sistemas <br>
+                    </h2>
+                    <p>
+                        Yo soy un Programador freelancer en CABA - Argentina
+                    </p>
+                    <a class="button--cta" href="./assets/cv_darioocedo.pdf" download="Dario Enzo Javier Ocedo CV" target="_blank" rel="noopener noreferrer">
+                        <i class="fas fa-file-download"></i>Descarga CV
+                    </a>
+                </div>
+                <div class="about__skills">
+                    <div class="skill__title">
+                        <h3>Mi skills:</h3>
+                    </div>
+                    <div class="skill__item">
+                        <i class="fab fa-java"></i>
+                        <div class="skill__name">JAVA</div>
+                    </div>
+                    <div class="skill__item">
+                        <i class="fab fa-js"></i>
+                        <div class="skill__name">JAVASCRIPT</div>
+                    </div>
+                    <div class="skill__item">
+                        <i class="fab fa-git-alt"></i>
+                        <div class="skill__name">GIT</div>
+                    </div>
+                    <div class="skill__item">
+                        <i class="fab fa-html5"></i>
+                        <div class="skill__name">HTML</div>
+                    </div>
+                    <div class="skill__item">
+                        <i class="fab fa-css3-alt"></i>
+                        <div class="skill__name">CSS</div>
+                    </div>
+                    <div class="skill__item">
+                        <i class="fab fa-php"></i>
+                        <div class="skill__name">PHP</div>
+                    </div>
+                    <div class="skill__item">
+                        <i class="fab fa-python"></i>
+                        <div class="skill__name">PYTHON</div>
+                    </div>
+                    <div class="skill__item">
+                        <img src="https://img.icons8.com/ios-filled/100/000000/mysql-logo.png" />
+                    </div>
+                    <div class="skill__item">
+                        <i class="fa fa-database"></i>
+                        <div class="skill__name">SQl</div>
+                    </div>
+                </div>
             </div>
-            <div class="skill__item">
-              <i class="fab fa-java"></i>
-              <div class="skill__name">JAVA</div>
-            </div>
-            <div class="skill__item">
-              <i class="fab fa-js"></i>
-              <div class="skill__name">JAVASCRIPT</div>
-            </div>
-            <div class="skill__item">
-              <i class="fab fa-git-alt"></i>
-              <div class="skill__name">GIT</div>
-            </div>
-            <div class="skill__item">
-              <i class="fab fa-html5"></i>
-              <div class="skill__name">HTML</div>
-            </div>
-            <div class="skill__item">
-              <i class="fab fa-css3-alt"></i>
-              <div class="skill__name">CSS</div>
-            </div>
-            <div class="skill__item">
-              <i class="fab fa-php"></i>
-              <div class="skill__name">PHP</div>
-            </div>
-            <div class="skill__item">
-              <i class="fab fa-python"></i>
-              <div class="skill__name">PYTHON</div>
-            </div>
-            <div class="skill__item">
-              <img src="https://img.icons8.com/ios-filled/100/000000/mysql-logo.png"/>
-            </div>
-            <div class="skill__item">
-              <i class="fa fa-database"></i>
-              <div class="skill__name">SQl</div>
-            </div>
-          </div>
         </div>
-      </div>
     </section>
     <section id="services">
-      <div class="container">
-        <h2 class="section__title">Servicios</h2>
-        <h3 class="section__subtitle">Servicios que ofrezco a mis clientes</h3>
-        <div class="services__grid">
-          <div class="services__item">
-            <i class="fas fa-mobile-alt"></i>
-            <h3>Totalmente receptivo</h3>
-            <p>
-              Su sitio se mostrará correctamente en cualquier dispositivo, incluidas computadoras de escritorio, tabletas y teléfonos móviles.
-            </p>
-          </div>
-          <div class="services__item">
-            <i class="fas fa-pencil-ruler"></i>
-            <h3>Diseño creativo</h3>
-            <p>
-              Un buen y atractivo diseño web le ayuda a mantener sus clientes potenciales en su sitio, que es la cara digital de su negocio.
-            </p>
-          </div>
-          <div class="services__item">
-            <i class="fas fa-code"></i>
-            <h3>Desarrollo</h3>
-            <p>
-              Conozco la importancia del diseño web y puedo ayudarlo a crear un sitio web que le encantará.
-            </p>
-          </div>
-          <div class="services__item">
-            <i class="fas fa-thumbs-up"></i>
-            <h3>Integración de redes sociales</h3>
-            <p>
-              Existen muchas plataformas sociales y debes promover tu presencia en ellas en tu sitio web.
-            </p>
-          </div>
-          <div class="services__item">
-            <i class="fas fa-tachometer-alt"></i>
-            <h3>Actuación</h3>
-            <p>
-              Retener a los usuarios es fundamental para mejorar las conversiones. Los sitios de alto rendimiento atraen y retienen a los usuarios
-            </p>
-          </div>
-          <div class="services__item">
-            <i class="fas fa-crosshairs"></i>
-            <h3>SEO</h3>
-            <p>
-              Optimizaré su sitio con una estrategia inteligente de optimización de motores de búsqueda para generar clientes potenciales.
-            </p>
-          </div>
+        <div class="container">
+            <h2 class="section__title">Servicios</h2>
+            <h3 class="section__subtitle">Servicios que ofrezco a mis clientes</h3>
+            <div class="services__grid">
+                <div class="services__item">
+                    <i class="fas fa-mobile-alt"></i>
+                    <h3>Totalmente receptivo</h3>
+                    <p>
+                        Su sitio se mostrará correctamente en cualquier dispositivo, incluidas computadoras de escritorio, tabletas y teléfonos móviles.
+                    </p>
+                </div>
+                <div class="services__item">
+                    <i class="fas fa-pencil-ruler"></i>
+                    <h3>Diseño creativo</h3>
+                    <p>
+                        Un buen y atractivo diseño web le ayuda a mantener sus clientes potenciales en su sitio, que es la cara digital de su negocio.
+                    </p>
+                </div>
+                <div class="services__item">
+                    <i class="fas fa-code"></i>
+                    <h3>Desarrollo</h3>
+                    <p>
+                        Conozco la importancia del diseño web y puedo ayudarlo a crear un sitio web que le encantará.
+                    </p>
+                </div>
+                <div class="services__item">
+                    <i class="fas fa-thumbs-up"></i>
+                    <h3>Integración de redes sociales</h3>
+                    <p>
+                        Existen muchas plataformas sociales y debes promover tu presencia en ellas en tu sitio web.
+                    </p>
+                </div>
+                <div class="services__item">
+                    <i class="fas fa-tachometer-alt"></i>
+                    <h3>Actuación</h3>
+                    <p>
+                        Retener a los usuarios es fundamental para mejorar las conversiones. Los sitios de alto rendimiento atraen y retienen a los usuarios
+                    </p>
+                </div>
+                <div class="services__item">
+                    <i class="fas fa-crosshairs"></i>
+                    <h3>SEO</h3>
+                    <p>
+                        Optimizaré su sitio con una estrategia inteligente de optimización de motores de búsqueda para generar clientes potenciales.
+                    </p>
+                </div>
+            </div>
         </div>
-      </div>
     </section>
     <section id="portfolio">
-      <div class="container">
-        <h2 class="section__title">Portafolio</h2>
-        <h3 class="section__subtitle">Mostrando algunos de mis mejores trabajos
-        </h3>
-        <div class="section__underline"></div>
-        <div class="portfolio__grid">
-          <div class="portfolio__item">
-            <picture>
-              <!-- <source type="image/webp" srcset="./assets/portfolio.webp" /> -->
-              <source type="image/jpeg" srcset="./projects/Mypublicprofile.png" />
-              <img class="portfolio__img" alt="portfolio item" />
-            </picture>
-            <div class="portfolio__description">
-              <h3 class="portfolio__description--title">My public profile</h3>
-              <p class="portfolio__description--text">
-                Mi perfil publico
-              </p>
-              <div class="buttons__container">
-                <a class="button" href="https://github.com/javierenzo/javierenzo" target="_blank" rel="noopener noreferrer">
-                  <i class="fab fa-github" aria-hidden="true"></i> Repositorio
-                </a>
-              </div>
-            </section>
+        <div class="container">
+            <h2 class="section__title">Portafolio</h2>
+            <h3 class="section__subtitle">Mostrando algunos de mis mejores trabajos
+            </h3>
+            <div class="section__underline"></div>
+            <div class="portfolio__grid">
+                <div class="portfolio__item">
+                    <picture>
+                        <!-- <source type="image/webp" srcset="./assets/portfolio.webp" /> -->
+                        <source type="image/jpeg" srcset="./projects/Mypublicprofile.png" />
+                        <img class="portfolio__img" alt="portfolio item" />
+                    </picture>
+                    <div class="portfolio__description">
+                        <h3 class="portfolio__description--title">My public profile</h3>
+                        <p class="portfolio__description--text">
+                            Mi perfil publico
+                        </p>
+                        <div class="buttons__container">
+                            <a class="button" href="https://github.com/javierenzo/javierenzo" target="_blank" rel="noopener noreferrer">
+                                <i class="fab fa-github" aria-hidden="true"></i> Repositorio
+                            </a>
+                        </div>
+    </section>
     <section id="contact">
-      <div class="container">
-        <h2 class="section__title">Contacto</h2>
-        <h3 class="section__subtitle">
-          Siempre disponible para trabajos autónomos si se presenta el proyecto adecuado.
-          <br />
-          ¡No dudes en contactarme!
-        </h3>
-        <div class="contact__grid">
-        
-          <a
-            href="mailto:dario.ocedo@gmail.com"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <div class="contact__item">
-              <i class="fas fa-paper-plane"></i>
-              <p>Mail Me</p>
+        <div class="container">
+            <h2 class="section__title">Contacto</h2>
+            <h3 class="section__subtitle">
+                Siempre disponible para trabajos autónomos si se presenta el proyecto adecuado.
+                <br /> ¡No dudes en contactarme!
+            </h3>
+            <div class="contact__grid">
+
+                <a href="mailto:dario.ocedo@gmail.com" target="_blank" rel="noopener noreferrer">
+                    <div class="contact__item">
+                        <i class="fas fa-paper-plane"></i>
+                        <p>Mail Me</p>
+                    </div>
+                </a>
+                <a href="https://wa.me/5491164766821" class="whatsapp" target="_blank" rel="noopener noreferrer">
+                    <div class="contact__item">
+                        <i class="fab fa-whatsapp"></i>
+                        <p>Text Me</p>
+                    </div>
+                </a>
+                <a href="https://t.me/javierenzo" class="telegram" target="_blank" rel="noopener noreferrer">
+                    <div class="contact__item">
+                        <i class="fab fa-telegram"></i>
+                        <p>Text Me</p>
+                    </div>
+                </a>
+                <a href="https://discord.com/users/705217286381764638" class="discord" target="_blank" rel="noopener noreferrer">
+                    <div class="contact__item">
+                        <i class="fab fa-discord"></i>
+                        <p>Text Me</p>
+                    </div>
+                </a>
+                <a href="https://github.com/javierenzo" target="_blank" rel="noopener noreferrer">
+                    <div class="contact__item">
+                        <i class="fab fa-github"></i>
+                        <p>Follow Me</p>
+                    </div>
+                </a>
+                <a href="https://twitter.com/analistasistok" target="_blank" rel="noopener noreferrer">
+                    <div class="contact__item">
+                        <i class="fab fa-twitter"></i>
+                        <p>Follow Me</p>
+                    </div>
+                </a>
+                <a href="https://www.linkedin.com/in/javierenzo/" target="_blank" rel="noopener noreferrer">
+                    <div class="contact__item">
+                        <i class="fab fa-linkedin-in"></i>
+                        <p>Contact Me</p>
+                    </div>
+                </a>
             </div>
-          </a>
-          <a
-            href="https://wa.me/5491164766821"
-            class="whatsapp"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <div class="contact__item">
-              <i class="fab fa-whatsapp"></i>
-              <p>Text Me</p>
-            </div>
-          </a>
-          <a
-          href="https://t.me/javierenzo"
-          class="telegram"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <div class="contact__item">
-            <i class="fab fa-telegram"></i>
-            <p>Text Me</p>
-          </div>
-        </a>
-        <a
-          href="https://discord.com/users/705217286381764638"
-          class="discord"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <div class="contact__item">
-            <i class="fab fa-discord"></i>
-            <p>Text Me</p>
-          </div>
-        </a>
-          <a
-            href="https://github.com/javierenzo"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <div class="contact__item">
-              <i class="fab fa-github"></i>
-              <p>Follow Me</p>
-            </div>
-          </a>
-          <a
-            href="https://twitter.com/analistasistok"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <div class="contact__item">
-              <i class="fab fa-twitter"></i>
-              <p>Follow Me</p>
-            </div>
-          </a>
-          <a
-            href="https://www.linkedin.com/in/javierenzo/"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <div class="contact__item">
-              <i class="fab fa-linkedin-in"></i>
-              <p>Contact Me</p>
-            </div>
-          </a>
         </div>
-      </div>
     </section>
     <footer class="footer">
-      <div class="container">
-        <p>
-          Copyright © 2020. <a href="#">@analistasistok</a> <br />
-          All Rights Reserved
-        </p>
-      </div>
+        <div class="container">
+            <p>
+                Copyright © 2020. <a href="#">@analistasistok</a> <br /> All Rights Reserved
+            </p>
+        </div>
     </footer>
     <script async src="./index.js"></script>
-  </body>
+</body>
+
 </html>
