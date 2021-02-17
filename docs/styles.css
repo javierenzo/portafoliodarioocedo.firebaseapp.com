@@ -203,7 +203,7 @@ section {
 }
 
 .skill__item {
-    background: #191919;
+    background: #e64c06;
     font-size: 50px;
     color: #8e8e8e;
     padding: 35px;
@@ -212,6 +212,118 @@ section {
 }
 
 .skill__item:hover {
+    color: #f5f5f5;
+    transition: all 0.3s;
+}
+
+.skill__item1 {
+    background: #cefe1a;
+    font-size: 50px;
+    color: #8e8e8e;
+    padding: 35px;
+    transition: all 0.3s;
+    min-width: 130px;
+}
+
+.skill__item1:hover {
+    color: #f5f5f5;
+    transition: all 0.3s;
+}
+
+.skill__item2 {
+    background: #f5f5f5;
+    font-size: 50px;
+    color: #8e8e8e;
+    padding: 35px;
+    transition: all 0.3s;
+    min-width: 130px;
+}
+
+.skill__item2:hover {
+    color: #f5f5f5;
+    transition: all 0.3s;
+}
+
+.skill__item3 {
+    background: #e64c06;
+    font-size: 50px;
+    color: #8e8e8e;
+    padding: 35px;
+    transition: all 0.3s;
+    min-width: 130px;
+}
+
+.skill__item3:hover {
+    color: #f5f5f5;
+    transition: all 0.3s;
+}
+
+.skill__item4 {
+    background: #2806e6;
+    font-size: 50px;
+    color: #8e8e8e;
+    padding: 35px;
+    transition: all 0.3s;
+    min-width: 130px;
+}
+
+.skill__item4:hover {
+    color: #f5f5f5;
+    transition: all 0.3s;
+}
+
+.skill__item5 {
+    background: #0660e6;
+    font-size: 50px;
+    color: #8e8e8e;
+    padding: 35px;
+    transition: all 0.3s;
+    min-width: 130px;
+}
+
+.skill__item5:hover {
+    color: #f5f5f5;
+    transition: all 0.3s;
+}
+
+.skill__item6 {
+    background: #0660e6;
+    font-size: 50px;
+    color: #8e8e8e;
+    padding: 35px;
+    transition: all 0.3s;
+    min-width: 130px;
+}
+
+.skill__item6:hover {
+    color: #f5f5f5;
+    transition: all 0.3s;
+}
+
+.skill__item7 {
+    background: #2806e6;
+    font-size: 50px;
+    color: #8e8e8e;
+    padding: 35px;
+    transition: all 0.3s;
+    min-width: 130px;
+}
+
+.skill__item7:hover {
+    color: #f5f5f5;
+    transition: all 0.3s;
+}
+
+.skill__item8 {
+    background: #2806e6;
+    font-size: 50px;
+    color: #8e8e8e;
+    padding: 35px;
+    transition: all 0.3s;
+    min-width: 130px;
+}
+
+.skill__item8:hover {
     color: #f5f5f5;
     transition: all 0.3s;
 }
